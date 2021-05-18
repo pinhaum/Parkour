@@ -1,0 +1,6 @@
+TODO: Funcionario Views
+TODO: Establishment model, controller and views
+TODO: styling
+TODO: add material design?
+TODO: logic for saving a spot
+TODO: logic for funcionario canceling a save
