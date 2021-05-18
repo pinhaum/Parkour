@@ -1,0 +1,5 @@
+<ul>
+  <% @clientes.each do |cliente| %>
+    <li><%= link_to cliente.name, clientes_path(cliente)  %></li>
+  <% end %>
+</ul>
