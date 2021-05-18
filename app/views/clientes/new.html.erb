@@ -1,0 +1,12 @@
+<h3>Criar cliente</h3>
+<%= form_with model: @cliente do |form| %>
+  <%= form.text_field :name, placeholder: "name" %>
+  <%= form.text_field :email, placeholder: "email" %>
+  <%= form.submit %>
+<% end %>
+
+<!-- <%= form_for @cliente do |form| %>
+  <%= form.text_field :name, placeholder: 'name' %>
+  <%= form.text_field :email, placeholder: 'email' %>
+  <%= form.submit %>
+<% end %> -->
